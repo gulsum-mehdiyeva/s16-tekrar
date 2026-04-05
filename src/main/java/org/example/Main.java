@@ -29,8 +29,8 @@ public class Main {
             boolean raporYetkisi = yetkiServisi.raporOkumaYetkisiVarMi(personel);
             raporServisi.raporVer(personel, toplamMaas);
 
-            System.out.println("  🔹 İzin Onay Yetkisi: " + (izinYetkisi ? "Var" : " Yok"));
-            System.out.println("  🔹 Rapor Okuma Yetkisi: " + (raporYetkisi ? "Var" : " Yok"));
+            System.out.println("İzin Onay Yetkisi: " + (izinYetkisi ? "Var" : " Yok"));
+            System.out.println("Rapor Okuma Yetkisi: " + (raporYetkisi ? "Var" : " Yok"));
         }
     }
 }
