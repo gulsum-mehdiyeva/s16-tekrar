@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println("=== " + yazilim.getDepartmanAdi() + " RAPORU ===\n");
 
-        for (Calisan personel : yazilim.getCalisanlar()) {
+        for (SirketPersoneli personel : yazilim.getCalisanlar()) {
             double ekBonus = 500.0;
 
             double toplamMaas = maasServisi.hesapla(personel, ekBonus);
