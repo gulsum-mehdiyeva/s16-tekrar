@@ -1,10 +1,7 @@
 package org.example.company.umit;
 
-import org.example.company.Pozisyon;
+import org.example.company.umit.SirketPersoneli;
 
-public class MaasHesaplayici {
-    public double hesapla(Calisan calisan, double ekBonus) {
-        Pozisyon p = calisan.getPozisyon();
-        return p.getBazMaas() + p.getVarsayilanBonus() + ekBonus;
-    }
+public interface MaasHesaplayici {
+    double hesapla(SirketPersoneli personel, double ekBonus);
 }

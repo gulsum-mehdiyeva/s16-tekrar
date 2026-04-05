@@ -1,9 +1,9 @@
 package org.example.company;
 
-import org.example.company.umit.Calisan;
+import org.example.company.umit.Raporlayici;
 import org.example.company.umit.SirketPersoneli;
 
-public class Raporlayici {
+public class RaporlayiciSistem implements Raporlayici {
     public void raporVer(SirketPersoneli personel, double toplamMaas) {
         if (personel == null) {
             System.out.println("Geçersiz çalışan bilgisi.");
